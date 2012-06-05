@@ -1,0 +1,77 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textwidth}{5.1in} % set width of text portion
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf Eric M. Abbott}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+ \moveleft.5\hoffset\centerline{2485 Shoreline Dr. \#222}
+ \moveleft.5\hoffset\centerline{Alameda, CA 94501}
+ \moveleft.5\hoffset\centerline{ericabbott1@gmail.com}
+ \moveleft.5\hoffset\centerline{(916)502-2556}
+
+
+\begin{resume}
+ 
+\section{OBJECTIVE}  A position in the field of mechanical engineering, software development, or ideally, one that combines the two. 
+ 
+
+\section{EDUCATION} {\sl Bachelor of Science,} Mechanical Engineering \\
+                      % \sl will be bold italic in New Century Schoolbook (or
+	              % any postscript font) and just slanted in
+		      %	Computer Modern (default) font
+                University of California, Berkeley\\ 
+                June, 2004
+ 
+\section{COMPUTER \\ SKILLS} {\sl Languages \& Software:} Objective-C, C, Python, PHP, HTML, CSS, XCode, Photoshop, Solidworks, AutoCAD, MATLAB, 3D Studio Max, Word, Excel, Powerpoint\\
+                {\sl Operating Systems:} OSX, Windows, Linux (Ubuntu). 
+ 
+\section{WORK \\ EXPERIENCE} {\sl Mechanical Design Engineer} \hfill Jun 2008-Present \\
+               DiCon Fiberoptics Inc,\\
+               MEMS/Telecom Group 
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item  Led the design and development of a small-package 1x32 fiberoptic switch. 
+                \item   Took charge of housing hermeticity efforts and improved product stability/reliability for a wide range of optical switches and filters.
+	     \item   Worked on a team to develop a 3D 16x16 MEMS optical switch.
+		\begin{itemize} \itemsep -2pt
+			\item Designed and built a hermetic MEMS array housing for our optical MEMS components.
+			\item Designed and built a high-precision mainframe for optical alignment and stability.
+		\end{itemize}
+                \end{itemize}
+
+                {\sl Founder, Programmer} \hfill            2010-Present \\
+                Appott Apps (www.appott.com),
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Self-developed 3 iOS apps that were released in the app store:
+		\begin{itemize} \itemsep -2pt
+			\item {\sl Sink Your Friends (www.appott.com/sinkfriends)}
+				\begin{itemize} \itemsep -2pt
+					\item A battleship game with asyncronous multiplayer for iPhone
+					\item Designed and programmed server-side resources (LAMP stack) to manage user accounts, ads, analytics, and games.
+					\item Designed and programmed a client-side interface for users to create accounts, log in and out, and initiate games through the app or Facebook.
+				\end{itemize}
+			\item {\sl US Tax Receipt}
+				\begin{itemize} \itemsep -2pt
+					\item A utility for iPhone that takes (or calculates) your tax responsibility and provides a user-friendly interface to exactly how much goes to which departments of government.
+					\item Uses location services to determine device location and a 3rd party API to present the names and contact information of their senators and representative. 
+				\end{itemize}
+			\item {\sl Candy Counter}
+				\begin{itemize} \itemsep -2pt
+					\item A utility for estimating the number of candies in a jar or other container.
+				\end{itemize}
+		\end{itemize} 
+                 \end{itemize} 
+
+\end{resume}
+\end{document}
+
+
+
+
